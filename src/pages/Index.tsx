@@ -1,13 +1,28 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/home/HeroSection";
+import ServicesSection from "@/components/home/ServicesSection";
+import BenefitsSection from "@/components/home/BenefitsSection";
+import ProcessSection from "@/components/home/ProcessSection";
+import StatsSection from "@/components/home/StatsSection";
+import TestimonialsSection from "@/components/home/TestimonialsSection";
+import FaqSection from "@/components/home/FaqSection";
+import TeamSection from "@/components/home/TeamSection";
+import PortfolioSection from "@/components/home/PortfolioSection";
+import CtaSection from "@/components/home/CtaSection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
-    </div>
+    <>
+      <HeroSection />
+      <ServicesSection />
+      <BenefitsSection />
+      <ProcessSection />
+      <StatsSection />
+      <TestimonialsSection />
+      <FaqSection />
+      <TeamSection />
+      <PortfolioSection />
+      <CtaSection />
+    </>
   );
 };
 
